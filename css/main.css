@@ -1777,3 +1777,43 @@ header .top-bar {
 			}
 		}
 	
+/*animated text*/
+
+  
+  .text-animation {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	justify-content: center;
+	
+  }
+ 
+  
+  .slide-animation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 20px 20px;
+	height: 100px;
+	overflow: hidden;
+	transition: all cubic-bezier(0.71, 0.03, 0.34, 1);
+  }
+  
+  .wrapper-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	animation: wordSlider 6s infinite alternate cubic-bezier(0.9, 0.01, 0.3, 0.99);
+  }
+  
+  @keyframes wordSlider {
+	0% {
+	  transform: translateY(0.5%);
+	}
+	100% {
+	  transform: translateY(-33%);
+	}
+	
+  }
+  
