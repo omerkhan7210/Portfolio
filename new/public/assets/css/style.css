@@ -1319,12 +1319,12 @@ video {
 
 .bg-primary {
     --tw-bg-opacity: 1;
-    background-color: rgb(255 182 70/var(--tw-bg-opacity));
+    background-color: rgb(70 125 255/var(--tw-bg-opacity));
 }
 
 .bg-secondary {
     --tw-bg-opacity: 1;
-    background-color: rgb(255 233 217/var(--tw-bg-opacity));
+    background-color: rgb(70 125 255/0.1);
 }
 
 .bg-white {
@@ -1636,9 +1636,7 @@ video {
     text-transform: capitalize;
 }
 
-.\ !leading-none {
-    line-height: 1 !important;
-}
+
 
 .leading-10 {
     line-height: 2.5rem;
@@ -2192,7 +2190,7 @@ a {
 .before\:bg-primary::before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(255 182 70/var(--tw-bg-opacity));
+    background-color: transparent;
 }
 
 .before\:bg-white::before {
